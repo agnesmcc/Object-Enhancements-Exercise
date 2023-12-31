@@ -54,3 +54,14 @@ var instructor = {
       return this.firstName + " says bye!";
     }
   }
+
+
+
+  function createAnimal(species, verb, noise) {
+    return {
+      species,
+      [verb]() {
+        console.log(noise)
+      }
+    }
+  }
